@@ -1,0 +1,188 @@
+ /*Layout für den gesamten Body Bereich*/
+body{
+    margin: auto;
+    padding: 0;
+    min-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.75px;
+    background-color: white;
+    clear: both;
+    color: #995a39;
+}
+
+/*Layout für die Hauptüberschriften*/
+h1{
+    margin-top: 5%;
+    font-size: 5.5vw;
+    line-height: 70%;
+    letter-spacing: 1.2px;
+    color: black;
+
+}
+
+/*Layout für die Navigationsleiste*/
+ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: #995a39;
+    clear: both;
+}
+
+/*Layout für die Navigationsleiste*/
+nav{
+    margin: 0;
+    position: relative;
+    clear: both;
+    list-style-type: none;
+    display: block;
+    text-align: right;
+}
+
+/*Layout für die Navigationsleiste*/
+li a{
+    margin-right: 10px;
+    margin-left: 10px;
+    float: center;
+    background-color: #995a39;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    color: white;
+    padding-bottom: 12%;
+    padding-top: 5%;
+    font-size: 80%;
+    line-height: 100%;
+    letter-spacing: 1.2px;
+}
+
+/*Layout für die Navigationsleiste beim Hovern mit der Maus*/
+li a:hover, .dropdown:hover{
+    color: #cf7c54;
+    transition: 0s;
+    }
+
+li.dropdown {
+    text-align: center;
+    display: inline-block;
+    }
+
+.aktuelleseite{
+   color: #c0aba1;
+}
+
+/*Layout für das Hintergrundbild unterhalb der Menüleiste*/
+  .bildhintergrund img{
+      width: 100%;
+  }
+
+
+/*Layout für die Fußleiste*/
+footer {
+    background-color: #995a39;
+    padding-bottom: 3%;
+    }
+
+/*Layout für die die Eingabefelder auf der Startseite*/
+.felddesign{
+    position: absolute;
+    left: 54%;
+    margin-top: 0.7%;
+}
+
+/*Layout für die Tabellen der Bibliothek*/
+  table{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    border: #995a39 1px inset;
+    background-color: #c0aba1;
+  }
+
+/*Layout für die einzelnen Tabellenelemente*/
+  td{
+    border: white 1px inset;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+/*Layout für die Überschriften der Tabellenspalten(fett)*/
+  thead{
+    font-weight: bold;
+  }
+
+/*Layout für die Buchtabelle in der Bibliothek*/
+  .tablebuch{
+    margin-bottom: 35px;
+    margin-left:26.5%;
+    margin-top: 35px;
+  }
+
+  /*Layout für die Buchtabelle in der Buchbewertung*/
+    .tablebuchbewertung{
+      position: relative;
+      margin-bottom: 40px;
+      margin-left:52%;
+      margin-top: -29%
+    }
+
+/*Layout für die Benutzertabelle in der Bibliothek*/
+  .tablenutzer{
+    position: relative;
+    margin-bottom: 35px;
+    margin-left:33%;
+    margin-top: 35px;
+  }
+
+/*Layout für die Tabelle auf der Informationsseite des ausgewählten Buches*/
+  .tablebuchinfo{
+    margin-bottom: 35px;
+    margin-left:40%;
+    margin-top: -1%;
+  }
+
+/*Layout für das Bild des Buches auf der Informationsseite*/
+  .buchbild img{
+    width: 18%;
+    margin-top: 2%;
+    margin-left: 3%;
+    float: left;
+  }
+
+/*Layout für den Informationstext auf der Informationsseite des ausgewählten Buches*/
+  .buchinfo {
+  position: relative;
+  margin-top: 4%;
+  margin-left: -22%;
+  margin-right: 7%;
+  margin-bottom: 6%;
+  font-size: 30px;
+  line-height: 38px;
+  color: black;
+  text-align: justify;
+  }
+
+/*Layout für die Schrift oberhalb der Eingabefelder auf der Startseite*/
+  .feldschrift{
+    margin-left: 34.5%;
+   text-align: justify;
+  }
+
+
+  /*Layout für das Textfeld zur Bewertung eines Buches*/
+    .feldschriftbewertung{
+      margin-left: 29%;
+     text-align: justify;
+    }
+
+  .buchbewertung{
+    position: relative;
+    margin-left: -18%;
+  }
